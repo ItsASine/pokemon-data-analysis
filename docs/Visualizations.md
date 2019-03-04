@@ -1,6 +1,6 @@
 ## Max Total By Type
-![](visualizations/MaxTotalByType.png)
-![](visualizations/MaxTotalByTypeNoLegendary.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/MaxTotalByType.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/MaxTotalByTypeNoLegendary.png)
 
 The chart denotes maximum values of the Total Stats variable and how it relates to the primary and secondary types of Pokemon. This is an exploration to see if any Pokemon type or type combination is inherently more powerful than the others.     
 Observations:
@@ -9,7 +9,7 @@ Observations:
 * Dragon and Psychic Pokemon appear to have the most total stats.
 
 ## Median Total Across Generations
-![](visualizations/MedianTotalAcrossGenerations.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/MedianTotalAcrossGenerations.png)
 
 The chart shows the median values of Total Stats for Pokemon grouped by their Generation value. This exploration was meant to look into the possibility of power creep across generations.     
 Observations:
@@ -17,8 +17,8 @@ Observations:
 * Generation 4 is a significant outlier due to its location between generation 7 and the bunched up generations 1, 2, 3, 5, and 6.
 
 ## Pokemon Attack And Defense
-![](visualizations/PokemonAttackAndDefense.png)
-![](visualizations/PokemonAttackAndDefenseNoLegendary.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/PokemonAttackAndDefense.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/PokemonAttackAndDefenseNoLegendary.png)
 
 This chart shows the relationship between Attack and Defense for each individual Pokemon. Data points are labelled by their names and primary type.
 Observations:
@@ -26,8 +26,8 @@ Observations:
 * Looking purely at Total Stats might not give the best picture for how well a Pokemon will fare in battle.
 
 ## Pokemon Sp. Attack And Sp. Defense
-![](visualizations/PokemonSpAttackAndSpDefense.png)
-![](visualizations/PokemonSpAttackAndSpDefenseNoLegendary.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/PokemonSpAttackAndSpDefense.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/PokemonSpAttackAndSpDefenseNoLegendary.png)
 
 This chart shows the relationship between Special Attack and Special Defense for each individual Pokemon. Data points are labelled by their names and primary type.
 Observations:
@@ -35,8 +35,8 @@ Observations:
 * A well balanced Pokemon team would be comprised of Pokemon from both charts' upper right quadrants.
 
 ## Pokemon Total Stats
-![](visualizations/PokemonTotalStats.png)
-![](visualizations/PokemonTotalStatsNoLegendary.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/PokemonTotalStats.png)
+![](https://github.com/ItsASine/pokemon-data-analysis/blob/master/visualizations/PokemonTotalStatsNoLegendary.png)
 
 This chart is a treemap of all Pokemon by Total Stats and labelled by name. This will allow for quick identification of the specific data points with a large amount of stats overall.
 Observations:
