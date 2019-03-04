@@ -27,6 +27,31 @@ SAS analysis using Pokemon as a dataset
         * The results of the above changes can be found in the [`proc compare` RTF output][clean-summary]
     * Removes duplicate entries for each Pokedex number
         * This removes all Mega Evolutions and alternate forms
+        * This step had to be done after `proc compare`, otherwise the change in indexes made that chart useless
+        
+## Tableau Files
+
+Original workbook can be found at [PokemonDataAnalysis.twb] but the but experience is better with the bundled version at [PokemonDataAnalysis.twbx]
+
+## Visualizations
+
+Overall, there are 5 unique visualizations with 4 of them also having versions excluding legendary Pokemon.
+
+* Max Total Stats By Type
+    * [All](visualizations/MaxTotalByType.png)
+    * [No Legendaries](visualizations/MaxTotalByTypeNoLegendary.png)
+* [Median Total Across Generations](visualizations/MedianTotalAcrossGenerations.png)
+* Pokemon Attack and Defense
+    * [All](visualizations/PokemonAttackAndDefense.png)
+    * [No Legendaries](visualizations/PokemonAttackAndDefenseNoLegendary.png)
+* Pokemon Sp. Attack and Sp. Defense
+    * [All](visualizations/PokemonSpAttackAndSpDefense.png)
+    * [No Legendaries](visualizations/PokemonSpAttackAndSpDefenseNoLegendary.png)
+* Pokemon Total Stats
+    * [All](visualizations/PokemonTotalStats.png)
+    * [No Legendaries](visualizations/PokemonTotalStatsNoLegendary.png)
+
+A write up of the above charts can be found in [Visualizations.md]
 
 [local-pokemon]: https://github.com/ItsASine/pokemonData
 [github-pokemon]: https://github.com/lgreski/pokemonData
@@ -36,3 +61,6 @@ SAS analysis using Pokemon as a dataset
 [Import Data]: sas_files/1%20Import%20Data.sas
 [Clean Data]: sas_files/2%20Clean%20Data.sas
 [clean-summary]: docs/Cleaning%20Summary.rtf
+[PokemonDataAnalysis.twb]: tableau_files/PokemonDataAnalysis.twb
+[PokemonDataAnalysis.twbx]: tableau_files/PokemonDataAnalysis.twbx
+[Visualizations.md]: docs/Visualizations.md
