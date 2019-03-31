@@ -28,7 +28,7 @@ SAS analysis using Pokemon as a dataset
     * Removes duplicate entries for each Pokedex number
         * This removes all Mega Evolutions and alternate forms
         * This step had to be done after `proc compare`, otherwise the change in indexes made that chart useless
-1. [Analyze Data], which runs various types of analysis on the [variables][#variables]
+1. [Analyze Data], which runs various types of analysis on the [variables](#variables)
         
 ## Tableau Files
 
